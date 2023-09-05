@@ -1,0 +1,3021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\HP\Documents\PCB\KiCAD\Work\48V_PV-BMS 27-5-2023\48V_PV-BMS\src\48V-PV_Battery_charge_&amp;_monitor\48V-PV_Battery_charge_&amp;_monitor.kicad_sch</source>
+    <date>5/31/2023 8:25:22 AM</date>
+    <tool>Eeschema (7.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>48V-PV_Battery_charge_&amp;_monitor.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>48V-PV_Li-Ion battery charger(LTC4013).kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/5V@2A_Buck converter /" tstamps="/917d16d9-e6ba-4c5b-b492-c19697ef5a00/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>5V@2A_Buck converter .kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/3.3V@1A_Buck converter/" tstamps="/60349ba7-ae72-48cf-89ed-b0759e02f257/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>3.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>6s2p_Li-Ion battery monitor(BQ76930).kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Solar array</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="48V-PV_Battery_charge_&amp;_monitor.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60e8322d-de75-444f-8a24-4e2cb4ed56f6</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Battery </value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="48V-PV_Battery_charge_&amp;_monitor.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>daee4561-734a-4e12-bac2-add70f854c96</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="48V-PV_Battery_charge_&amp;_monitor.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6db5ca4-4de7-4185-8963-4f258cf8784f</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="48V-PV_Battery_charge_&amp;_monitor.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30cf226f-da06-4ef0-a6e8-243efae5c980</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>3ae19795-5a18-440b-ac1f-51e472b520da</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>2bc9298b-dc26-4ee5-88be-13087102bf18</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>200n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>4fc335ca-5ca7-46fa-84c7-30178ede4463</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>200n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>cc429900-5c28-489c-9b0c-386ba827fde3</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>GRM21BR61H106KE43L</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>1c711877-dab4-48bb-a463-1711db49d340</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>33p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>d3422a5f-0550-4480-9186-0632119be59c</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>160513e1-154a-47b3-8e6f-75991a4e5197</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>f194f766-dab2-42be-8731-054b4124c9c1</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>db2982ab-2ab2-4417-90c7-feeb75d6cbec</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>942213f1-3a3e-418f-b0db-f38272e5c831</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>d87618ad-c539-4544-a0ed-0d2f43e4179f</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>68p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>4ddfefed-2010-49c9-a3ed-dcd383da54b4</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>680p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>5e884953-e52c-43e2-9318-8c508320505c</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>c819b659-d55b-4ab4-a914-29d62193411c</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>CL21A226MAQNNNE</datasheet>
+      <fields>
+        <field name="MPN">C5750X5R1A686MT000N</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MPN" value="C5750X5R1A686MT000N"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>67b672a4-010d-452c-b144-cb7718bc731d</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>CL21A226MAQNNNE</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>28f09bb0-a6db-4593-943d-24a6097d0468</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>CL21A226MAQNNNE</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>045c0813-3ce9-49e4-bfa4-2df37f6ad259</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>CL21A226MAQNNNE</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>214f4dcf-b645-4659-b61b-7d6e11dba031</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>56u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>CL21A226MAQNNNE</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>a142d7bc-3b3e-4e19-b7a3-db67df365d36</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>RED</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>e1696930-a9d8-4704-a834-42ee132a73ca</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>GREEN</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>eee51efc-ed6a-43fc-ac04-9bc50a753e86</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>SBR0560S1Q</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>166ef37f-49f7-4a22-bccc-20b4cb37adec</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>MBRS360BT3G</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>f8b584cc-1af1-47ad-bd1d-c0fe35187b4c</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>SBR0560S1Q</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>fa078af4-190a-4e13-8480-73f82aa17702</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>LTC4020EUHF#PBF</value>
+      <footprint>myFootprints_IC:QFN50P500X700X80-39N-D</footprint>
+      <datasheet>http://cds.linear.com/docs/en/datasheet/4020fd.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LTC4020EUHF#PBF</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltc4020euhfpbf/analog-devices?region=nac</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">LTC4020EUHF#PBF</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA</field>
+      </fields>
+      <libsource lib="LTC4020EUHF#PBF" part="LTC4020EUHF#PBF" description="LTC4020 - 55V Buck-Boost Multi-Chemistry Battery Charger"/>
+      <property name="Height" value="0.8"/>
+      <property name="Manufacturer_Name" value="Analog Devices"/>
+      <property name="Manufacturer_Part_Number" value="LTC4020EUHF#PBF"/>
+      <property name="Mouser Part Number" value="N/A"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA"/>
+      <property name="Arrow Part Number" value="LTC4020EUHF#PBF"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/ltc4020euhfpbf/analog-devices?region=nac"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="LTC4020 - 55V Buck-Boost Multi-Chemistry Battery Charger"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>dabb34d4-78f6-48b5-b7ac-1f2f6073a9b0</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>22uH</value>
+      <footprint>ECAD_footprint:HCM1A1307V2-220-R</footprint>
+      <datasheet>https://eu.mouser.com/datasheet/2/87/eaton_hcm1a1307v2_automotive_power_inductor_data_s-1627668.pdf</datasheet>
+      <fields>
+        <field name="MPN">HCM1A1307V2-220-R</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="MPN" value="HCM1A1307V2-220-R"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>261e04e0-1a6a-4321-a25e-88b1843f4d8f</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>TX40N06B</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-3_TabPin2</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809301531_UTC-Unisonic-Tech-UTM6016G-SO8-R_C84901.pdf</datasheet>
+      <fields>
+        <field name="ALT">UTM6016G-SO8-R</field>
+        <field name="Sim.Device">NMOS</field>
+        <field name="Sim.Pins">1=D 2=G 3=S</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="NMOS" description="N-MOSFET transistor, drain/source/gate"/>
+      <property name="Sim.Device" value="NMOS"/>
+      <property name="Sim.Type" value=""/>
+      <property name="Sim.Pins" value="1=D 2=G 3=S"/>
+      <property name="ALT" value="UTM6016G-SO8-R"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, drain/source/gate"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET simulation"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>3a2908c1-a4d9-4478-ace3-bf65c8a9164a</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>TX40N06B</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-3_TabPin2</footprint>
+      <datasheet>https://ngspice.sourceforge.io/docs/ngspice-manual.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">NMOS</field>
+        <field name="Sim.Pins">1=D 2=G 3=S</field>
+        <field name="Sim.Type">VDMOS</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="NMOS" description="N-MOSFET transistor, drain/source/gate"/>
+      <property name="Sim.Device" value="NMOS"/>
+      <property name="Sim.Type" value="VDMOS"/>
+      <property name="Sim.Pins" value="1=D 2=G 3=S"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, drain/source/gate"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET simulation"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>5f227684-b6d7-47e8-8494-b7971156746c</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>TX40N06B</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-3_TabPin2</footprint>
+      <datasheet>https://ngspice.sourceforge.io/docs/ngspice-manual.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">NMOS</field>
+        <field name="Sim.Pins">1=D 2=G 3=S</field>
+        <field name="Sim.Type">VDMOS</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="NMOS" description="N-MOSFET transistor, drain/source/gate"/>
+      <property name="Sim.Device" value="NMOS"/>
+      <property name="Sim.Type" value="VDMOS"/>
+      <property name="Sim.Pins" value="1=D 2=G 3=S"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, drain/source/gate"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET simulation"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>72d0cb4c-5e8a-4caa-9851-aaac637f50cb</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>TX40N06B</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-3_TabPin2</footprint>
+      <datasheet>https://ngspice.sourceforge.io/docs/ngspice-manual.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">NMOS</field>
+        <field name="Sim.Pins">1=D 2=G 3=S</field>
+        <field name="Sim.Type">VDMOS</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="NMOS" description="N-MOSFET transistor, drain/source/gate"/>
+      <property name="Sim.Device" value="NMOS"/>
+      <property name="Sim.Type" value="VDMOS"/>
+      <property name="Sim.Pins" value="1=D 2=G 3=S"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, drain/source/gate"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET simulation"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>04c5c162-be21-4515-a5d4-27b82a1b1bb7</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>ZXMP10A13FTA</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://ngspice.sourceforge.io/docs/ngspice-manual.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">PMOS</field>
+        <field name="Sim.Pins">1=D 2=G 3=S</field>
+        <field name="Sim.Type">VDMOS</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="PMOS" description="P-MOSFET transistor, drain/source/gate"/>
+      <property name="Sim.Device" value="PMOS"/>
+      <property name="Sim.Type" value="VDMOS"/>
+      <property name="Sim.Pins" value="1=D 2=G 3=S"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="P-MOSFET transistor, drain/source/gate"/>
+      <property name="ki_keywords" value="transistor PMOS P-MOS P-MOSFET simulation"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>302316e8-1db5-4e37-9a47-f07d5edc35ef</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>2.7k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>0b7d8118-34bd-41e8-9389-c03c557a239e</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>2.7k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>357e7631-edcc-4331-8e94-1b43fbb0dbbb</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>284k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>ERJ2RKF4753X</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>c83551df-af98-4050-b0c7-fe6c2053ad3b</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>ERJ-2RKF4022X</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>16df8b60-fe2f-44ff-98a3-3315043890e3</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>50k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>0402WGF8662TCE</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>7f9fff57-448a-4fa5-aa50-ffe1c8566d2c</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>56k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>ERJ2RKF4753X</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>67e67a62-5d21-4365-b8f3-bc00ac3a7ab9</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>ERJ-2RKF4022X</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>e5df3fa6-f4b8-4634-a1b9-e085173dbb35</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>0402WGF8662TCE</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>ba9dc2bf-4700-478e-abf8-f5cc9e8bb991</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>8m</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <datasheet>RLP25FEGMR008</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>74aa1517-bb20-47a1-9279-6f1d7791b50b</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>8m</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <datasheet>RLP25FEGMR008</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>3d766a80-94e7-4c66-a555-7933866ea4da</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>24.9k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>0402WGF4992TCE</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>65d8fd89-0098-4fe0-9527-c638dc10cd74</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>56k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>0402WGF1503TCE</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>bf5e6466-7046-4e24-860c-84b1b82a631d</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>24.9k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>0402WGF4992TCE</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>1862c4ae-a2fa-4f11-9763-b658baf0a7e5</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>215k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>0402WGF1503TCE</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>16008df5-f190-4c61-a28a-040f4f98800b</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>0402WGF1503TCE</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>b83291fe-3b7b-44bb-a28a-279000003f77</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>24.9k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>0402WGF4992TCE</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>78ceaa86-e57c-48ff-81f7-345bf794a581</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>215k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>0402WGF1503TCE</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>c27817dd-7b57-46a7-8bf9-c17eef0fc3cb</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>0402WGF1503TCE</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>24be0c09-4fb8-4b72-a033-4a052785189a</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>0402WGF1503TCE</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>7b979be3-d729-4a79-9019-6c5a0fb0a27a</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>20m</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <datasheet>RTT25R020FTE</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="48V-PV_Li-Ion battery charger(LTC4013)"/>
+      <property name="Sheetfile" value="48V-PV_Li-Ion battery charger(LTC4013).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/48V-PV_Li-Ion battery charger(LTC4013)/" tstamps="/dbbead15-11c2-43d4-b9ea-897b227a9537/"/>
+      <tstamps>a424720a-8fde-48f6-a409-eca3aa1ff8aa</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="5V@2A_Buck converter "/>
+      <property name="Sheetfile" value="5V@2A_Buck converter .kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/5V@2A_Buck converter /" tstamps="/917d16d9-e6ba-4c5b-b492-c19697ef5a00/"/>
+      <tstamps>aaddadea-fea3-4777-a032-0b20fa28f4b0</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="5V@2A_Buck converter "/>
+      <property name="Sheetfile" value="5V@2A_Buck converter .kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/5V@2A_Buck converter /" tstamps="/917d16d9-e6ba-4c5b-b492-c19697ef5a00/"/>
+      <tstamps>9ff3d783-5f5e-4c09-8fa8-cb87c53f9c1a</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="5V@2A_Buck converter "/>
+      <property name="Sheetfile" value="5V@2A_Buck converter .kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/5V@2A_Buck converter /" tstamps="/917d16d9-e6ba-4c5b-b492-c19697ef5a00/"/>
+      <tstamps>fd958ffb-d8ec-4b82-9c23-8f99c1c752c8</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="5V@2A_Buck converter "/>
+      <property name="Sheetfile" value="5V@2A_Buck converter .kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/5V@2A_Buck converter /" tstamps="/917d16d9-e6ba-4c5b-b492-c19697ef5a00/"/>
+      <tstamps>ba488aed-81ae-47e5-a686-c3f5b95eff56</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="5V@2A_Buck converter "/>
+      <property name="Sheetfile" value="5V@2A_Buck converter .kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/5V@2A_Buck converter /" tstamps="/917d16d9-e6ba-4c5b-b492-c19697ef5a00/"/>
+      <tstamps>63f9e468-7fb9-4117-b78f-5200e6a29003</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_SOD-123F</footprint>
+      <datasheet>S-LMBR360FT1G</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Sheetname" value="5V@2A_Buck converter "/>
+      <property name="Sheetfile" value="5V@2A_Buck converter .kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/5V@2A_Buck converter /" tstamps="/917d16d9-e6ba-4c5b-b492-c19697ef5a00/"/>
+      <tstamps>61a67eea-6e4b-4d11-a197-f87b6abba798</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>4.7u</value>
+      <footprint>Inductor_SMD:L_1210_3225Metric</footprint>
+      <fields>
+        <field name="Mfr#">DFE252012F-100M=P2 </field>
+      </fields>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Mfr#" value="DFE252012F-100M=P2 "/>
+      <property name="Sheetname" value="5V@2A_Buck converter "/>
+      <property name="Sheetfile" value="5V@2A_Buck converter .kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/5V@2A_Buck converter /" tstamps="/917d16d9-e6ba-4c5b-b492-c19697ef5a00/"/>
+      <tstamps>5802f4f9-016c-4cfe-9cb3-079624add536</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>AP63205WU</value>
+      <footprint>Package_TO_SOT_SMD:TSOT-23-6</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="AP63205WU" description="2A, 1.1MHz Buck DC/DC Converter, fixed 5.0V output voltage, TSOT-23-6"/>
+      <property name="Sheetname" value="5V@2A_Buck converter "/>
+      <property name="Sheetfile" value="5V@2A_Buck converter .kicad_sch"/>
+      <property name="ki_description" value="2A, 1.1MHz Buck DC/DC Converter, fixed 5.0V output voltage, TSOT-23-6"/>
+      <property name="ki_keywords" value="2A Buck DC/DC"/>
+      <sheetpath names="/5V@2A_Buck converter /" tstamps="/917d16d9-e6ba-4c5b-b492-c19697ef5a00/"/>
+      <tstamps>5ff5134e-9457-4708-b6a1-edc995c95cd1</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="3.3V@1A_Buck converter"/>
+      <property name="Sheetfile" value="3.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/3.3V@1A_Buck converter/" tstamps="/60349ba7-ae72-48cf-89ed-b0759e02f257/"/>
+      <tstamps>0cfbf4f0-483d-487f-8ce3-bc4c194d7260</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>22p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="3.3V@1A_Buck converter"/>
+      <property name="Sheetfile" value="3.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/3.3V@1A_Buck converter/" tstamps="/60349ba7-ae72-48cf-89ed-b0759e02f257/"/>
+      <tstamps>fdf20232-2613-4ba7-9c78-5274864bc224</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="3.3V@1A_Buck converter"/>
+      <property name="Sheetfile" value="3.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/3.3V@1A_Buck converter/" tstamps="/60349ba7-ae72-48cf-89ed-b0759e02f257/"/>
+      <tstamps>74ad2132-8efa-484d-bd6f-72f639c57b42</tstamps>
+    </comp>
+    <comp ref="FB1">
+      <value>FerriteBead_Small</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <libsource lib="Device" part="FerriteBead_Small" description="Ferrite bead, small symbol"/>
+      <property name="Sheetname" value="3.3V@1A_Buck converter"/>
+      <property name="Sheetfile" value="3.kicad_sch"/>
+      <property name="ki_description" value="Ferrite bead, small symbol"/>
+      <property name="ki_keywords" value="L ferrite bead inductor filter"/>
+      <sheetpath names="/3.3V@1A_Buck converter/" tstamps="/60349ba7-ae72-48cf-89ed-b0759e02f257/"/>
+      <tstamps>811a5377-1c9f-40cd-9b55-0d5591349070</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>2.2uH</value>
+      <footprint>Inductor_SMD:L_1210_3225Metric</footprint>
+      <fields>
+        <field name="Mfr#">DFE252012F-100M=P2 </field>
+      </fields>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Mfr#" value="DFE252012F-100M=P2 "/>
+      <property name="Sheetname" value="3.3V@1A_Buck converter"/>
+      <property name="Sheetfile" value="3.kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/3.3V@1A_Buck converter/" tstamps="/60349ba7-ae72-48cf-89ed-b0759e02f257/"/>
+      <tstamps>d36165c7-ddf8-481c-aa93-4bf0805ca6f0</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>249k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="3.3V@1A_Buck converter"/>
+      <property name="Sheetfile" value="3.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/3.3V@1A_Buck converter/" tstamps="/60349ba7-ae72-48cf-89ed-b0759e02f257/"/>
+      <tstamps>2cd0b77b-3482-4d26-99c3-e1f4fbca40da</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>54.9k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="3.3V@1A_Buck converter"/>
+      <property name="Sheetfile" value="3.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/3.3V@1A_Buck converter/" tstamps="/60349ba7-ae72-48cf-89ed-b0759e02f257/"/>
+      <tstamps>c4bc0f87-3ab9-4a9e-b77a-343f5cca55b6</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>RT8059</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <libsource lib="ECAD_Symbol" part="RT8059" description=""/>
+      <property name="Sheetname" value="3.3V@1A_Buck converter"/>
+      <property name="Sheetfile" value="3.kicad_sch"/>
+      <sheetpath names="/3.3V@1A_Buck converter/" tstamps="/60349ba7-ae72-48cf-89ed-b0759e02f257/"/>
+      <tstamps>f2510797-f43c-4613-8e09-9c7939c42179</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>220n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>387f5292-3576-40a1-900c-b1b9d0715da5</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>220n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>4897f230-6843-49fb-8cd8-8662094e6097</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>220n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>88c4aba9-9366-44b8-8f2c-520be1dc08aa</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>8edfcda8-9d50-45d2-ba29-b991e131ae4c</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>220n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>a8190032-6d86-4603-98d6-3d95b3174957</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>220n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>7bc53988-1066-4695-b9bc-663ea2081a48</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>220n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>de486337-ceae-4342-b1a0-e1509e097e61</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>220n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>e85bbad7-4c8a-4cb1-a817-16435d0ffc87</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>0402B104K500CT</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>7ea9e33f-6cb3-45f1-a25d-0df231375716</tstamps>
+    </comp>
+    <comp ref="C37">
+      <value>220n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>e4b226c9-8049-45b7-9de8-b6c2be34c79c</tstamps>
+    </comp>
+    <comp ref="C38">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>d790f129-e701-47ef-9e60-5442f1b4872b</tstamps>
+    </comp>
+    <comp ref="C39">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>0402B104K500CT</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>f46754f3-eae2-4930-9320-88a53fc12984</tstamps>
+    </comp>
+    <comp ref="C40">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>67bf3279-b36b-4203-acc1-bcc2a026c129</tstamps>
+    </comp>
+    <comp ref="C41">
+      <value>220n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>2706551c-41c0-4ecd-bb72-d9989a12743f</tstamps>
+    </comp>
+    <comp ref="C42">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>0402B104K500CT</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>912214c1-fd4b-4205-8ef3-bf6783b7f2b1</tstamps>
+    </comp>
+    <comp ref="C43">
+      <value>2.2U</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>d4b9be0b-bef9-49da-aa26-1c7e3141f08c</tstamps>
+    </comp>
+    <comp ref="C44">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>11bea11d-ea3a-4c3f-b493-853f02bd87ce</tstamps>
+    </comp>
+    <comp ref="C45">
+      <value>470p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>13d67b9d-8420-407d-ac14-71a6f73d89a6</tstamps>
+    </comp>
+    <comp ref="C46">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>92d9ee8b-c040-4bc6-89b3-128189e11c58</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>BZT52B5V1S</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>1632fa29-3557-4937-96d2-8da8f4d850ae</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>BZT52B5V1S</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>f4a8200c-b4ba-4933-abc1-dd3d9ea695a5</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>BZT52B5V1S</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>9346af9d-675f-46a6-aa97-5567f2297139</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>BZT52B5V1S</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>79418683-09cc-4f9d-b822-f7919b69df5e</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>BZT52B5V1S</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>bfc69fba-e93d-4cfe-a935-a97449932a7c</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>BZT52B5V1S</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>a804a822-e18d-45be-85e9-6d36ef7842d6</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>7d018300-b912-4941-adf4-9bd84a1e8c82</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>100V</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>1N4148WS</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>ba6eee33-04db-4691-ae39-73c85d3bc8d3</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>100V</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>c387ae52-fd51-4a59-b966-acd07a25ad99</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>54d8045d-23d4-49e3-9986-d8d82a664d6b</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>MMSZ5246B</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>b0493757-9fe9-457b-8f74-f92710029b6a</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Screw_Terminal_01x07</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-7-2.54_1x07_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x07" description="Generic screw terminal, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>a79b96b7-e1f6-47eb-98a4-7a12e2ed0b4a</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>DMG2302UK-7</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://ngspice.sourceforge.io/docs/ngspice-manual.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">NMOS</field>
+        <field name="Sim.Pins">1=D 2=G 3=S</field>
+        <field name="Sim.Type">VDMOS</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="NMOS" description="N-MOSFET transistor, drain/source/gate"/>
+      <property name="Sim.Device" value="NMOS"/>
+      <property name="Sim.Type" value="VDMOS"/>
+      <property name="Sim.Pins" value="1=D 2=G 3=S"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, drain/source/gate"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET simulation"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>2a82765e-3e2e-4bb8-ace0-90d29324f63e</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>DMG2302UK-7</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://ngspice.sourceforge.io/docs/ngspice-manual.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">NMOS</field>
+        <field name="Sim.Pins">1=D 2=G 3=S</field>
+        <field name="Sim.Type">VDMOS</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="NMOS" description="N-MOSFET transistor, drain/source/gate"/>
+      <property name="Sim.Device" value="NMOS"/>
+      <property name="Sim.Type" value="VDMOS"/>
+      <property name="Sim.Pins" value="1=D 2=G 3=S"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, drain/source/gate"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET simulation"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>773390ff-57e7-4a6b-88bc-80eb866bad7c</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>DMG2302UK-7</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://ngspice.sourceforge.io/docs/ngspice-manual.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">NMOS</field>
+        <field name="Sim.Pins">1=D 2=G 3=S</field>
+        <field name="Sim.Type">VDMOS</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="NMOS" description="N-MOSFET transistor, drain/source/gate"/>
+      <property name="Sim.Device" value="NMOS"/>
+      <property name="Sim.Type" value="VDMOS"/>
+      <property name="Sim.Pins" value="1=D 2=G 3=S"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, drain/source/gate"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET simulation"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>8601a7e3-17c8-4c83-950a-0ddc5a8941fc</tstamps>
+    </comp>
+    <comp ref="Q9">
+      <value>DMG2302UK-7</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://ngspice.sourceforge.io/docs/ngspice-manual.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">NMOS</field>
+        <field name="Sim.Pins">1=D 2=G 3=S</field>
+        <field name="Sim.Type">VDMOS</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="NMOS" description="N-MOSFET transistor, drain/source/gate"/>
+      <property name="Sim.Device" value="NMOS"/>
+      <property name="Sim.Type" value="VDMOS"/>
+      <property name="Sim.Pins" value="1=D 2=G 3=S"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, drain/source/gate"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET simulation"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>2b7cb3fa-f18d-4c51-b222-cea23eababe6</tstamps>
+    </comp>
+    <comp ref="Q10">
+      <value>DMG2302UK-7</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://ngspice.sourceforge.io/docs/ngspice-manual.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">NMOS</field>
+        <field name="Sim.Pins">1=D 2=G 3=S</field>
+        <field name="Sim.Type">VDMOS</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="NMOS" description="N-MOSFET transistor, drain/source/gate"/>
+      <property name="Sim.Device" value="NMOS"/>
+      <property name="Sim.Type" value="VDMOS"/>
+      <property name="Sim.Pins" value="1=D 2=G 3=S"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, drain/source/gate"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET simulation"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>3365a4df-b3d2-4f1c-95b4-39f7dc77907a</tstamps>
+    </comp>
+    <comp ref="Q11">
+      <value>DMG2302UK-7</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://ngspice.sourceforge.io/docs/ngspice-manual.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">NMOS</field>
+        <field name="Sim.Pins">1=D 2=G 3=S</field>
+        <field name="Sim.Type">VDMOS</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="NMOS" description="N-MOSFET transistor, drain/source/gate"/>
+      <property name="Sim.Device" value="NMOS"/>
+      <property name="Sim.Type" value="VDMOS"/>
+      <property name="Sim.Pins" value="1=D 2=G 3=S"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, drain/source/gate"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET simulation"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>9a5af995-b7ae-4327-9e36-041fc99e5c39</tstamps>
+    </comp>
+    <comp ref="Q12">
+      <value>HXY20N10D</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://ngspice.sourceforge.io/docs/ngspice-manual.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">NMOS</field>
+        <field name="Sim.Pins">1=D 2=G 3=S</field>
+        <field name="Sim.Type">VDMOS</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="NMOS" description="N-MOSFET transistor, drain/source/gate"/>
+      <property name="Sim.Device" value="NMOS"/>
+      <property name="Sim.Type" value="VDMOS"/>
+      <property name="Sim.Pins" value="1=D 2=G 3=S"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, drain/source/gate"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET simulation"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>bfa145f8-5f61-4f3e-bfb9-5369269af1b4</tstamps>
+    </comp>
+    <comp ref="Q13">
+      <value>ZXMP10A13FTA</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://ngspice.sourceforge.io/docs/ngspice-manual.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">PMOS</field>
+        <field name="Sim.Pins">1=D 2=G 3=S</field>
+        <field name="Sim.Type">VDMOS</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="PMOS" description="P-MOSFET transistor, drain/source/gate"/>
+      <property name="Sim.Device" value="PMOS"/>
+      <property name="Sim.Type" value="VDMOS"/>
+      <property name="Sim.Pins" value="1=D 2=G 3=S"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="P-MOSFET transistor, drain/source/gate"/>
+      <property name="ki_keywords" value="transistor PMOS P-MOS P-MOSFET simulation"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>5ea6c1ae-7f3c-459a-8dc0-b3a1849d1f4d</tstamps>
+    </comp>
+    <comp ref="Q14">
+      <value>HXY20N10D</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://ngspice.sourceforge.io/docs/ngspice-manual.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">NMOS</field>
+        <field name="Sim.Pins">1=D 2=G 3=S</field>
+        <field name="Sim.Type">VDMOS</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="NMOS" description="N-MOSFET transistor, drain/source/gate"/>
+      <property name="Sim.Device" value="NMOS"/>
+      <property name="Sim.Type" value="VDMOS"/>
+      <property name="Sim.Pins" value="1=D 2=G 3=S"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, drain/source/gate"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET simulation"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>860bf9f1-3df4-487e-ae82-4f1c1a2f7fe2</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>MR06X1000FTL</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>74fc7c67-0c2f-4922-80e5-2f10802fa6ad</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>MR06X1000FTL</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>6ff476c3-140f-48e5-9204-6c82a08acd86</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>MR06X1000FTL</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>343dc561-3bf9-403c-9913-16b3dcdb58e6</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>MR06X1000FTL</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>de5c53ae-a0cb-4a09-b087-51ef97bc39ba</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>MR06X1000FTL</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>a2abd27b-c5bc-4f46-9c7a-9af3922aae1b</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>MR06X1000FTL</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>28aaaaba-8d0b-45f9-a396-517523cb32dc</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>e2552a99-9c11-410a-8807-069b6ba9e85f</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>ae4c83f0-18de-4a91-a084-2902d32edcf2</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>cbeeada7-581f-432d-9b7f-fe1945e79e17</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>5e37fd84-e7e5-491e-b049-0b718125dd41</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>0c49c4bc-094a-469c-8729-259fc77e75b1</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>d7dde1e6-8e92-4b27-b92b-1c18d291ef43</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>e5421001-9c67-44d7-b5cd-44a5d0ff0911</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>2310804b-23ff-4f32-bdb6-0a2d695a847b</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>c2251f0d-f72c-4718-8cec-b3bc54a0e96e</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>b88008bd-362d-4e18-9f73-747c0bbcba91</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>b336f97b-6cee-4422-bc28-5837bae27c48</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>3fc6a9f4-98e8-41ac-901f-d91e2d347426</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>a58b6b9d-ba59-4d8b-b80c-f3766ef7c15f</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>c46667ca-a4b6-41a2-9360-462c98577894</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>6a47d189-5973-40a5-b2cf-3d8737e628de</tstamps>
+    </comp>
+    <comp ref="R44">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>MR06X1000FTL</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>019426dd-8462-43d1-90f2-e11da43c039e</tstamps>
+    </comp>
+    <comp ref="R45">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>6be40c3e-f21e-4f8d-8eeb-4477885423f9</tstamps>
+    </comp>
+    <comp ref="R46">
+      <value>1.5m</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <datasheet>TLR3A30DR0015FTDG</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>e137acd4-05fc-4b38-b88e-2ef3bda9a931</tstamps>
+    </comp>
+    <comp ref="R47">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>MR06X1000FTL</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>0f0ff0d9-d2f1-4c81-9ab4-b6222ffbe945</tstamps>
+    </comp>
+    <comp ref="R48">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>2c5f043d-2cc8-440e-b15a-f9fca4d1f942</tstamps>
+    </comp>
+    <comp ref="R49">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>4a47ce47-fb4d-4247-ade3-7afdc6df0d8a</tstamps>
+    </comp>
+    <comp ref="R50">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>7c26e257-f82a-4d13-88a7-bb5c222bff6a</tstamps>
+    </comp>
+    <comp ref="R51">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>151d9ace-bb08-4c8a-9b0d-161dc72899bd</tstamps>
+    </comp>
+    <comp ref="R52">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>41b04854-c8c7-4d17-97d9-1c98487d3646</tstamps>
+    </comp>
+    <comp ref="R53">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>c8d402ca-1e7e-4edf-bf95-bf7a19c0ec8d</tstamps>
+    </comp>
+    <comp ref="R54">
+      <value>500k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>6e912ebe-0bd7-40e0-aeb9-a3d1e4eec72b</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>Boot</value>
+      <footprint>myFootprints_Passives:SW_SKRPACE010</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Single Pole Single Throw (SPST) switch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>a83e3f15-804a-4677-aad3-dcce54f03615</tstamps>
+    </comp>
+    <comp ref="TH1">
+      <value>10-kΩ NTC 103A</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>NTCG163JF103FT1S</datasheet>
+      <libsource lib="Device" part="Thermistor_NTC_US" description="Temperature dependent resistor, negative temperature coefficient, US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Temperature dependent resistor, negative temperature coefficient, US symbol"/>
+      <property name="ki_keywords" value="thermistor NTC resistor sensor RTD"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>8aacee32-a1ca-4119-8fea-2f2da3e28b10</tstamps>
+    </comp>
+    <comp ref="TH2">
+      <value>10-kΩ NTC 103A</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>NTCG163JF103FT1S</datasheet>
+      <libsource lib="Device" part="Thermistor_NTC_US" description="Temperature dependent resistor, negative temperature coefficient, US symbol"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Temperature dependent resistor, negative temperature coefficient, US symbol"/>
+      <property name="ki_keywords" value="thermistor NTC resistor sensor RTD"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>b05105fa-a214-4458-a478-a1e9dac9e10e</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>BQ76930DBT</value>
+      <footprint>Package_SO:TSSOP-30_4.4x7.8mm_P0.5mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/bq76930.pdf</datasheet>
+      <libsource lib="Battery_Management" part="BQ76930DBT" description="Lithium battery monitor, 6-10 cells, integrated balancing, I2C interface, TSSOP-30"/>
+      <property name="Sheetname" value="6s2p_Li-Ion battery monitor(BQ76930)"/>
+      <property name="Sheetfile" value="6s2p_Li-Ion battery monitor(BQ76930).kicad_sch"/>
+      <property name="ki_description" value="Lithium battery monitor, 6-10 cells, integrated balancing, I2C interface, TSSOP-30"/>
+      <property name="ki_keywords" value="lithium battery balance charge afe"/>
+      <sheetpath names="/6s2p_Li-Ion battery monitor(BQ76930)/" tstamps="/8a27dde4-9648-445b-af3c-693cb5deee23/"/>
+      <tstamps>efa34b78-d7ca-4858-ad7b-36acc7329aa8</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Battery_Management" part="BQ76930DBT">
+      <description>Lithium battery monitor, 6-10 cells, integrated balancing, I2C interface, TSSOP-30</description>
+      <docs>http://www.ti.com/lit/ds/symlink/bq76930.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x7.8mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U4</field>
+        <field name="Value">BQ76930DBT</field>
+        <field name="Footprint">Package_SO:TSSOP-30_4.4x7.8mm_P0.5mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/bq76930.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DSG" type="output"/>
+        <pin num="2" name="CHG" type="output"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="SDA" type="bidirectional"/>
+        <pin num="5" name="SCL" type="input"/>
+        <pin num="6" name="TS1" type="passive"/>
+        <pin num="7" name="CAP1" type="passive"/>
+        <pin num="8" name="REGOUT" type="power_out"/>
+        <pin num="9" name="REGSRC" type="power_in"/>
+        <pin num="10" name="VC5X" type="passive"/>
+        <pin num="11" name="NC(CAP2)" type="passive"/>
+        <pin num="12" name="NC(CAP2)" type="passive"/>
+        <pin num="13" name="TS2" type="passive"/>
+        <pin num="14" name="CAP2" type="passive"/>
+        <pin num="15" name="BAT" type="input"/>
+        <pin num="16" name="VC10" type="input"/>
+        <pin num="17" name="VC9" type="input"/>
+        <pin num="18" name="VC8" type="input"/>
+        <pin num="19" name="VC7" type="input"/>
+        <pin num="20" name="VC6" type="input"/>
+        <pin num="21" name="VC5B" type="input"/>
+        <pin num="22" name="VC5" type="input"/>
+        <pin num="23" name="VC4" type="input"/>
+        <pin num="24" name="VC3" type="input"/>
+        <pin num="25" name="VC2" type="input"/>
+        <pin num="26" name="VC1" type="input"/>
+        <pin num="27" name="VC0" type="input"/>
+        <pin num="28" name="SRP" type="input"/>
+        <pin num="29" name="SRN" type="input"/>
+        <pin num="30" name="ALERT" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x03">
+      <description>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x07">
+      <description>Generic screw terminal, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x07</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="FerriteBead_Small">
+      <description>Ferrite bead, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Thermistor_NTC_US">
+      <description>Temperature dependent resistor, negative temperature coefficient, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TH</field>
+        <field name="Value">Thermistor_NTC_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ECAD_Symbol" part="RT8059">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RT8059</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="LX" type="passive"/>
+        <pin num="4" name="VIN" type="input"/>
+        <pin num="5" name="FB" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="LTC4020EUHF#PBF" part="LTC4020EUHF#PBF">
+      <description>LTC4020 - 55V Buck-Boost Multi-Chemistry Battery Charger</description>
+      <docs>http://cds.linear.com/docs/en/datasheet/4020fd.pdf</docs>
+      <fields>
+        <field name="Reference">IC1</field>
+        <field name="Value">LTC4020EUHF#PBF</field>
+        <field name="Footprint">QFN50P500X700X80-39N-D</field>
+        <field name="Datasheet">http://cds.linear.com/docs/en/datasheet/4020fd.pdf</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">LTC4020EUHF#PBF</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA</field>
+        <field name="Arrow Part Number">LTC4020EUHF#PBF</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltc4020euhfpbf/analog-devices?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TG1" type="passive"/>
+        <pin num="2" name="BST1" type="passive"/>
+        <pin num="3" name="SGND_1" type="passive"/>
+        <pin num="4" name="SENSGND" type="passive"/>
+        <pin num="5" name="SENSBOT" type="passive"/>
+        <pin num="6" name="SENSTOP" type="passive"/>
+        <pin num="7" name="SENSVIN" type="passive"/>
+        <pin num="8" name="RT" type="passive"/>
+        <pin num="9" name="SHDN" type="passive"/>
+        <pin num="10" name="VIN_REG" type="passive"/>
+        <pin num="11" name="MODE" type="passive"/>
+        <pin num="12" name="STAT1" type="passive"/>
+        <pin num="13" name="STAT2" type="passive"/>
+        <pin num="14" name="TIMER" type="passive"/>
+        <pin num="15" name="RNG/SS" type="passive"/>
+        <pin num="16" name="NTC" type="passive"/>
+        <pin num="17" name="VFB" type="passive"/>
+        <pin num="18" name="FBG" type="passive"/>
+        <pin num="19" name="VFBMIN" type="passive"/>
+        <pin num="20" name="BAT" type="passive"/>
+        <pin num="21" name="BGATE" type="passive"/>
+        <pin num="22" name="CSN" type="passive"/>
+        <pin num="23" name="CSP" type="passive"/>
+        <pin num="24" name="CSOUT" type="passive"/>
+        <pin num="25" name="ILIMIT" type="passive"/>
+        <pin num="26" name="VFBMAX" type="passive"/>
+        <pin num="27" name="ITH" type="passive"/>
+        <pin num="28" name="VC" type="passive"/>
+        <pin num="29" name="SGND_2" type="passive"/>
+        <pin num="30" name="BST2" type="passive"/>
+        <pin num="31" name="TG2" type="passive"/>
+        <pin num="32" name="SW2" type="passive"/>
+        <pin num="33" name="BG2" type="passive"/>
+        <pin num="34" name="INTVCC" type="passive"/>
+        <pin num="35" name="PGND" type="passive"/>
+        <pin num="36" name="PVIN" type="passive"/>
+        <pin num="37" name="BG1" type="passive"/>
+        <pin num="38" name="SW1" type="passive"/>
+        <pin num="39" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="AP63205WU">
+      <description>2A, 1.1MHz Buck DC/DC Converter, fixed 5.0V output voltage, TSOT-23-6</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf</docs>
+      <footprints>
+        <fp>TSOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP63205WU</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TSOT-23-6</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="FB" type="input"/>
+        <pin num="2" name="EN" type="input"/>
+        <pin num="3" name="IN" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SW" type="output"/>
+        <pin num="6" name="BST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Simulation_SPICE" part="NMOS">
+      <description>N-MOSFET transistor, drain/source/gate</description>
+      <docs>https://ngspice.sourceforge.io/docs/ngspice-manual.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">NMOS</field>
+        <field name="Datasheet">https://ngspice.sourceforge.io/docs/ngspice-manual.pdf</field>
+        <field name="Sim.Device">NMOS</field>
+        <field name="Sim.Type">VDMOS</field>
+        <field name="Sim.Pins">1=D 2=G 3=S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Simulation_SPICE" part="PMOS">
+      <description>P-MOSFET transistor, drain/source/gate</description>
+      <docs>https://ngspice.sourceforge.io/docs/ngspice-manual.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">PMOS</field>
+        <field name="Datasheet">https://ngspice.sourceforge.io/docs/ngspice-manual.pdf</field>
+        <field name="Sim.Device">PMOS</field>
+        <field name="Sim.Type">VDMOS</field>
+        <field name="Sim.Pins">1=D 2=G 3=S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Battery_Management">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Battery_Management.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="ECAD_Symbol">
+      <uri>C:/Users/HP/OneDrive/Pictures/Documents/KiCad/7.0/symbols/ECAD_Symbol.kicad_sym</uri>
+    </library>
+    <library logical="LTC4020EUHF#PBF">
+      <uri>C:/Users/HP/Documents/PCB/LIBRARIES/Symbols/LTC4020EUHF#PBF.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="Simulation_SPICE">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Simulation_SPICE.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="2" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="L2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="FB" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="EN" pintype="input"/>
+      <node ref="U2" pin="4" pinfunction="VIN" pintype="input"/>
+    </net>
+    <net code="3" name="/6s2p_Li-Ion battery monitor(BQ76930)/3.3V_Reg">
+      <node ref="C40" pin="1" pintype="passive"/>
+      <node ref="R49" pin="1" pintype="passive"/>
+      <node ref="R50" pin="1" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="REGOUT" pintype="power_out"/>
+    </net>
+    <net code="4" name="/6s2p_Li-Ion battery monitor(BQ76930)/Alert">
+      <node ref="C45" pin="1" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R54" pin="1" pintype="passive"/>
+      <node ref="U3" pin="30" pinfunction="ALERT" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/6s2p_Li-Ion battery monitor(BQ76930)/BAT-">
+      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q14" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="R51" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/6s2p_Li-Ion battery monitor(BQ76930)/SCL">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R50" pin="2" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="7" name="/6s2p_Li-Ion battery monitor(BQ76930)/SDA">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R49" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/6s2p_Li-Ion battery monitor(BQ76930)/VC1">
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="R41" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U3" pin="26" pinfunction="VC1" pintype="input"/>
+    </net>
+    <net code="9" name="/6s2p_Li-Ion battery monitor(BQ76930)/VC5x">
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C37" pin="1" pintype="passive"/>
+      <node ref="C41" pin="1" pintype="passive"/>
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="TH1" pin="2" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="VC5X" pintype="passive"/>
+    </net>
+    <net code="10" name="/6s2p_Li-Ion battery monitor(BQ76930)/VC10x">
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C41" pin="2" pintype="passive"/>
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="U3" pin="16" pinfunction="VC10" pintype="input"/>
+    </net>
+    <net code="11" name="/48V-PV_Li-Ion battery charger(LTC4013)/48_VIN">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="36" pinfunction="PVIN" pintype="passive"/>
+      <node ref="IC1" pin="7" pinfunction="SENSVIN" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="/48V-PV_Li-Ion battery charger(LTC4013)/BAT+">
+      <node ref="C43" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="20" pinfunction="BAT" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q5" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R45" pin="1" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="REGSRC" pintype="power_in"/>
+    </net>
+    <net code="13" name="/48V-PV_Li-Ion battery charger(LTC4013)/INTVcc">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="IC1" pin="34" pinfunction="INTVCC" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="/48V-PV_Li-Ion battery charger(LTC4013)/Vout_Sys_Load">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="EN" pintype="input"/>
+      <node ref="U1" pin="3" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="15" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="C37" pin="2" pintype="passive"/>
+      <node ref="C38" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C40" pin="2" pintype="passive"/>
+      <node ref="C42" pin="2" pintype="passive"/>
+      <node ref="C43" pin="2" pintype="passive"/>
+      <node ref="C44" pin="2" pintype="passive"/>
+      <node ref="C45" pin="2" pintype="passive"/>
+      <node ref="C46" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="IC1" pin="11" pinfunction="MODE" pintype="passive"/>
+      <node ref="IC1" pin="29" pinfunction="SGND_2" pintype="passive"/>
+      <node ref="IC1" pin="3" pinfunction="SGND_1" pintype="passive"/>
+      <node ref="IC1" pin="35" pinfunction="PGND" pintype="passive"/>
+      <node ref="IC1" pin="39" pinfunction="GND" pintype="passive"/>
+      <node ref="IC1" pin="4" pinfunction="SENSGND" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q13" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="Q4" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R44" pin="2" pintype="passive"/>
+      <node ref="R46" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R54" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="TH2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="16" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(C11-Pad2)">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(C26-Pad1)">
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="1" pintype="passive"/>
+      <node ref="L3" pin="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC1" pin="13" pinfunction="STAT2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC1" pin="12" pinfunction="STAT1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(D3-K)">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="BST1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(D4-A)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="IC1" pin="32" pinfunction="SW2" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(D5-K)">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC1" pin="30" pinfunction="BST2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(D6-K)">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="SW" pintype="output"/>
+    </net>
+    <net code="28" name="Net-(D7-A)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(D7-K)">
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(D8-A)">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="Q7" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(D8-K)">
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q7" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(D9-A)">
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="Q8" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(D9-K)">
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q8" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(D10-A)">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q9" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(D10-K)">
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q9" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(D11-A)">
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q10" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(D11-K)">
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q10" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(D12-A)">
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q11" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R42" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(D12-K)">
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q11" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R43" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(D13-A)">
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="U3" pin="22" pinfunction="VC5" pintype="input"/>
+    </net>
+    <net code="41" name="Net-(D14-K)">
+      <node ref="C38" pin="1" pintype="passive"/>
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R45" pin="2" pintype="passive"/>
+      <node ref="U3" pin="15" pinfunction="BAT" pintype="input"/>
+    </net>
+    <net code="42" name="Net-(D16-A)">
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q13" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="R52" pin="1" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(D16-K)">
+      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q14" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R51" pin="1" pintype="passive"/>
+      <node ref="R52" pin="2" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(IC1-BG1)">
+      <node ref="IC1" pin="37" pinfunction="BG1" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="45" name="Net-(IC1-BG2)">
+      <node ref="IC1" pin="33" pinfunction="BG2" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="46" name="Net-(IC1-BGATE)">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="21" pinfunction="BGATE" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="47" name="Net-(IC1-CSN)">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="22" pinfunction="CSN" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(IC1-CSOUT)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="24" pinfunction="CSOUT" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(IC1-CSP)">
+      <node ref="IC1" pin="23" pinfunction="CSP" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(IC1-FBG)">
+      <node ref="IC1" pin="18" pinfunction="FBG" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(IC1-ITH)">
+      <node ref="IC1" pin="27" pinfunction="ITH" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(IC1-RNG{slash}SS)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="15" pinfunction="RNG/SS" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(IC1-RT)">
+      <node ref="IC1" pin="8" pinfunction="RT" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(IC1-SENSBOT)">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="5" pinfunction="SENSBOT" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(IC1-SENSTOP)">
+      <node ref="IC1" pin="6" pinfunction="SENSTOP" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(IC1-SHDN)">
+      <node ref="IC1" pin="9" pinfunction="SHDN" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(IC1-SW1)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="38" pinfunction="SW1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(IC1-TG1)">
+      <node ref="IC1" pin="1" pinfunction="TG1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="59" name="Net-(IC1-TG2)">
+      <node ref="IC1" pin="31" pinfunction="TG2" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="60" name="Net-(IC1-TIMER)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="14" pinfunction="TIMER" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(IC1-VC)">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="28" pinfunction="VC" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(IC1-VFB)">
+      <node ref="IC1" pin="17" pinfunction="VFB" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(IC1-VFBMAX)">
+      <node ref="IC1" pin="19" pinfunction="VFBMIN" pintype="passive"/>
+      <node ref="IC1" pin="26" pinfunction="VFBMAX" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(IC1-VIN_REG)">
+      <node ref="IC1" pin="10" pinfunction="VIN_REG" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(J5-Pin_7)">
+      <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(Q1-S)">
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(Q5-S)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(Q6-D)">
+      <node ref="Q6" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(Q7-D)">
+      <node ref="Q7" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(Q8-D)">
+      <node ref="Q8" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(Q9-D)">
+      <node ref="Q9" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(Q10-D)">
+      <node ref="Q10" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(Q11-D)">
+      <node ref="Q11" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(Q12-D)">
+      <node ref="Q12" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="Q14" pin="3" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(Q12-G)">
+      <node ref="Q12" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R48" pin="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="DSG" pintype="output"/>
+    </net>
+    <net code="76" name="Net-(Q12-S)">
+      <node ref="Q12" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R46" pin="1" pintype="passive"/>
+      <node ref="R47" pin="2" pintype="passive"/>
+      <node ref="R48" pin="2" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(Q13-S)">
+      <node ref="Q13" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="CHG" pintype="output"/>
+    </net>
+    <net code="78" name="Net-(SW1-A)">
+      <node ref="R53" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(U1-BST)">
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="BST" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(U2-FB)">
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="81" name="Net-(U2-LX)">
+      <node ref="L3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="LX" pintype="passive"/>
+    </net>
+    <net code="82" name="Net-(U3-CAP1)">
+      <node ref="C44" pin="1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="CAP1" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(U3-CAP2)">
+      <node ref="C46" pin="1" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="CAP2" pintype="passive"/>
+    </net>
+    <net code="84" name="Net-(U3-SRN)">
+      <node ref="C39" pin="2" pintype="passive"/>
+      <node ref="C42" pin="1" pintype="passive"/>
+      <node ref="R47" pin="1" pintype="passive"/>
+      <node ref="U3" pin="29" pinfunction="SRN" pintype="input"/>
+    </net>
+    <net code="85" name="Net-(U3-SRP)">
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C39" pin="1" pintype="passive"/>
+      <node ref="R44" pin="1" pintype="passive"/>
+      <node ref="U3" pin="28" pinfunction="SRP" pintype="input"/>
+    </net>
+    <net code="86" name="Net-(U3-TS1)">
+      <node ref="R53" pin="1" pintype="passive"/>
+      <node ref="TH2" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="TS1" pintype="passive"/>
+    </net>
+    <net code="87" name="Net-(U3-TS2)">
+      <node ref="TH1" pin="1" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="TS2" pintype="passive"/>
+    </net>
+    <net code="88" name="Net-(U3-VC0)">
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="R42" pin="2" pintype="passive"/>
+      <node ref="R43" pin="2" pintype="passive"/>
+      <node ref="U3" pin="27" pinfunction="VC0" pintype="input"/>
+    </net>
+    <net code="89" name="Net-(U3-VC2)">
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="U3" pin="23" pinfunction="VC4" pintype="input"/>
+      <node ref="U3" pin="24" pinfunction="VC3" pintype="input"/>
+      <node ref="U3" pin="25" pinfunction="VC2" pintype="input"/>
+    </net>
+    <net code="90" name="Net-(U3-VC5B)">
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="U3" pin="21" pinfunction="VC5B" pintype="input"/>
+    </net>
+    <net code="91" name="Net-(U3-VC6)">
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="U3" pin="18" pinfunction="VC8" pintype="input"/>
+      <node ref="U3" pin="19" pinfunction="VC7" pintype="input"/>
+      <node ref="U3" pin="20" pinfunction="VC6" pintype="input"/>
+    </net>
+    <net code="92" name="Net-(U3-VC9)">
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="U3" pin="17" pinfunction="VC9" pintype="input"/>
+    </net>
+    <net code="93" name="unconnected-(IC1-ILIMIT-Pad25)">
+      <node ref="IC1" pin="25" pinfunction="ILIMIT" pintype="passive+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(IC1-NTC-Pad16)">
+      <node ref="IC1" pin="16" pinfunction="NTC" pintype="passive+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U3-NC(CAP2)-Pad11)">
+      <node ref="U3" pin="11" pinfunction="NC(CAP2)" pintype="passive+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U3-NC(CAP2)-Pad12)">
+      <node ref="U3" pin="12" pinfunction="NC(CAP2)" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
